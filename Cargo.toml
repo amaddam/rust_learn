@@ -1,0 +1,13 @@
+[package]
+name = "rust_learn"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[workspace]
+
+members = [
+    "chapter_1_hello_rust",
+    "chapter_2_concepts",
+]

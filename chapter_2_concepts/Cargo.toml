@@ -1,0 +1,6 @@
+[package]
+name = "chapter_2_concepts"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
