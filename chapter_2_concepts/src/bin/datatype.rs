@@ -1,4 +1,4 @@
-use std::{i8, u16};
+use std::io;
 
 fn main() {
     // rust 是静态类型语言, 编译期必须知道所有变量的类型, 如果多种类型均有可能, 需要显式指定类型
@@ -96,8 +96,25 @@ fn main() {
     let d = array[3];
     let e = array[4];
     println!("The value of a is: {a}, b is: {b}, c is: {c}, d is: {d}, e is: {e}");
-    //数组越界, 会panic
-    // let array: [i32; 5] = [1, 2, 3, 4, 5];
-    let element = array[5];
-    println!("The value of array[5] is: {element}");
+
+    
+    //数组越界, 当输入5时会panic
+    let a = [1, 2, 3, 4, 5];
+
+    println!("Please enter an array index.");
+
+    let mut index = String::new();
+
+    io::stdin()
+        .read_line(&mut index)
+        .expect("Failed to read line");
+
+    let index: usize = index
+        .trim()
+        .parse()
+        .expect("Index entered was not a number");
+
+    let element = a[index];
+
+    println!("The value of the element at index {index} is: {element}");
 }

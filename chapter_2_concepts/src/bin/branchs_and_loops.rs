@@ -1,11 +1,10 @@
-fn main(){
- let number = 3;
+fn main() {
+    let number = 3;
     if number < 5 {
         println!("condition was true");
     } else {
         println!("condition was false");
     }
-
 
     let number = 5;
     if number != 0 {
@@ -49,10 +48,10 @@ fn main(){
     println!("The result is: {}", result);
 
     let mut count = 0;
-    'counting_loop:loop{
+    'counting_loop: loop {
         println!("count = {count}");
         let mut remaining = 10;
-        
+
         // 这里的break 'counting_loop; 会跳出到'counting_loop这个标签所在的循环
         // 这里的break; 会跳出到最近的循环
         loop {
