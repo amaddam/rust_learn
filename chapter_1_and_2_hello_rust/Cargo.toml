@@ -1,5 +1,5 @@
 [package]
-name = "chapter_1_hello_rust"
+name = "chapter_1_and_2_hello_rust"
 version = "0.1.0"
 edition = "2021"
 

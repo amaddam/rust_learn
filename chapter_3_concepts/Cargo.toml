@@ -1,0 +1,22 @@
+[package]
+name = "chapter_3_concepts"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+# 定义二进制文件
+# 温度转换器
+[[bin]]
+name = "demo_01_temperature_converter"
+path = "src/bin/demo/temperature_converter.rs"
+
+# 斐波那契数列
+[[bin]]
+name = "demo_02_fibonacci"
+path = "src/bin/demo/fibonacci.rs"
+
+# 圣诞颂歌
+[[bin]]
+name = "demo_03_twelve_days_of_christmas"
+path = "src/bin/demo/twelve_days_of_christmas.rs"

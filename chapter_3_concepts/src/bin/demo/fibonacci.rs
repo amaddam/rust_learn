@@ -62,6 +62,6 @@ fn fib_recursion(n: i8) -> i64 {
 
 fn fib_recursion_with_cache(n: i8) -> i64 {
     //todo 全局变量还没了解comp
-    println!("fib_recursion_with_cache({n})");
+    println!("fib_recursion_with_cache can't work now {n}");
     0
 }

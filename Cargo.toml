@@ -8,6 +8,6 @@ edition = "2021"
 [workspace]
 
 members = [
-    "chapter_1_hello_rust",
-    "chapter_2_concepts",
+    "chapter_1_and_2_hello_rust",
+    "chapter_3_concepts",
 ]
