@@ -9,5 +9,5 @@ edition = "2021"
 
 members = [
     "chapter_1_and_2_hello_rust",
-    "chapter_3_concepts",
+    "chapter_3_concepts", "chapter_4_ownership",
 ]

@@ -30,15 +30,20 @@ cargo run --package chapter_3_concepts --bin demo_02_fibonacci
 
 ## 命令
 
-1. 创建一个新的二进制包, 
+1. 常用Rust相关命令
+    1. rustup update 更新rust版本
+    2. rustup show 显示当前的rust版本
+    3. rustc --version 显示当前的rust版本
+    4. rustc {file_name}.rs 编译一个文件
+    5. ./{file_name} 运行一个文件
 
-`
-cargo new {project_name} --bin 
-`
+2. cargo相关命令
+    1. 创建一个新的二进制包
 
-会在当前目录下创建一个新的文件夹, 文件夹中包含了一个Cargo.toml文件和src/main.rs文件, --bin 可以省略, 默认创建的是二进制包, 如果需要创建一个库, 那么需要使用--lib
+        `
+        cargo new {project_name} --bin 
+        `
 
-2. 
+        会在当前目录下创建一个新的包, 文件夹中包含了一个Cargo.toml文件和src/main.rs文件, --bin(默认) 可以省略, 默认创建的是二进制包, 如果需要创建一个库, 那么需要使用--lib
 
-
-
+    2. 
