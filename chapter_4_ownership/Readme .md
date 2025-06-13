@@ -38,7 +38,7 @@
     let s = String::from("hello");
 ```
 
-这两个::是运算符, 允许将特定的`from`函数置于String类型的命名空间(namespace)下. 而不需要使用类似string_from这样的函数名. 这个之后在`方法语法(Methid Syntax)`部分会讲到这个语法, 在`路径用于引用模块树中的项`中会讲到命名空间.
+这两个::是运算符, 允许将特定的`from`函数置于String类型的命名空间(namespace)下, 而不需要使用类似string_from这样的函数名。这个之后在`方法语法(Method Syntax)`部分会讲到这个语法, 在`路径用于引用模块树中的项`中会讲到命名空间。
 **可以**修改此类字符串:
 ```rust
     let mut s = String::from("hello");
